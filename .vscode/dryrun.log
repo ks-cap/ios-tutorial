@@ -1,9 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/sato.ken/src/exaple/swift/ios-tutorial'
-bash bin/install_ruby.sh
-gem install bundler
-bundle config set --local path 'vendor/bundle'
-bundle install --jobs 4 --retry 3
-bundle exec pod install
-make: Leaving directory `/Users/sato.ken/src/exaple/swift/ios-tutorial'
- 
